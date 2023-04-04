@@ -6,4 +6,4 @@
        }
        barplot(probability, xlab = "X", ylab = "P(X)")
    }
- poisson(lambda = 3, n = 5)
+ poisson(lambda = 4, n = 5)
