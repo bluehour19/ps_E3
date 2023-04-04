@@ -1,1 +1,9 @@
 
+ poisson <- function(lambda, n) {
+       probability <- dpois(x = 0:n, lambda = lambda)
+       for (i in 0:n) {
+           print(probability[i+1])
+       }
+       barplot(probability, xlab = "X", ylab = "P(X)")
+   }
+ poisson(lambda = 3, n = 5)
